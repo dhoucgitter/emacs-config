@@ -54,6 +54,7 @@ Added: %U")
              ))
 (setq org-tag-alist '(("9_5" . ?5) ("daily" . ?d) ("pdttest" . ?p) ("edu" . ?e)))
 (setq org-log-done 'time)
+(setq org-directory "/home/david/org/")
 
 (global-set-key "\C-cl" 'org-store-link)
 (setq org-default-notes-file (concat org-directory "/notes.org"))
