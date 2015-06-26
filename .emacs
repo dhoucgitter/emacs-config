@@ -5,7 +5,7 @@
  ;; If there is more than one, they won't work right.
  '(org-agenda-files
    (quote
-    ("~/org/95deploy.org" "~/org/dailytasks.org" "~/org/pdttestteam.org")))
+    ("~/org/taskdiary.org" "~/org/95deploy.org" "~/org/dailytasks.org" "~/org/pdttestteam.org")))
  '(org-catch-invisible-edits (quote smart))
  '(org-hide-emphasis-markers t)
  '(org-log-done (quote time))
@@ -69,3 +69,4 @@ Added: %U")
 (require 'cl-lib)
 (eval-when-compile (require 'cl))
 (require 'winner)
+(require 'ace-window)
